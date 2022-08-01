@@ -23,7 +23,11 @@ namespace CustomerAPI.Data.Repositories
             Customer customer = _context.Customers.AsNoTracking().Where(item => item.Email == email).FirstOrDefault();            
             return customer;
         }
-        
+        public async Task<Customer> GetById(int id)
+        {
+            Customer customer = _context.Customers.AsNoTracking().Where(item => item.Id == id).FirstOrDefault();
+            return customer;
+        }
         public async Task<Customer> Add(Customer customer)
         {
             _context.Customers.Add(customer);
@@ -31,7 +35,7 @@ namespace CustomerAPI.Data.Repositories
             return customer;
         }
         
-        public async Task<Customer> Update(string email, Customer customer)
+        public async Task<Customer> Update( Customer customer)
         {            
             _context.Entry<Customer>(customer).State = EntityState.Modified;
             await _context.SaveChangesAsync();

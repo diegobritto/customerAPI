@@ -34,12 +34,14 @@ namespace CustomerAPI.Data.Service
             return await _repository.GetAll();
         }
 
-        public async Task<Customer> updateCustomer(string email, Customer customer)
+        public async Task<Customer> updateCustomer(int id, Customer customer)
         {
-            Customer result = await getCustomerByEmail(email);
+            Customer result = await _repository.GetById(id);            
+            result.Email = customer.Email;
+            result.Name = customer.Name;
             if (result == null)
                 return null;
-            return await _repository.Update(email,customer);
+            return await _repository.Update(result);
         }
     }
 }

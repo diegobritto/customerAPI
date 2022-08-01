@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HsIMEYxF5f7P6lRl7HeuZoZdOwPH07IWaeSkJ8GLy2Teg6ehmcCAmpCgF7scMmcLB274U4MQLMUBdRMETbH7kw==",
+  "dgSpecHash": "kGhWnzlrI2PZgQ+2Eohl4dAfGJc/JW8erOAH5BpaK9EzCGjy8cdHR0noqQ8SucF8qEHHMEn02inSi4FTazExfA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
+  "projectFilePath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iU5GR3XwEd4Kw7wDbpi8tanoKkwWvmupq4H9FSTI8/CVEpJL1VOt8TxdoLZL49jRdsUNI7y0JpDqNkx2LA6fDg==",
+  "dgSpecHash": "xAdAjdP6KXiJqV/MklNj+u1bKE7Fw/ASVM/4UdVarY05eB0CD7CeNaXeEyeOGJIeAsvGJ8efqXWBI6+AYQbLBw==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomersAPI\\CustomerAPI.csproj",
+  "projectFilePath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomersAPI\\CustomerAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -6,8 +6,9 @@ namespace CustomerAPI.Data.Interfaces
     {
         Task<List<Customer>> GetAll();
         Task<Customer> GetByEmail(string email);
+        Task<Customer> GetById(int id);
         Task<Customer> Add(Customer customer);
-        Task<Customer> Update(string email,Customer customer);
+        Task<Customer> Update(Customer customer);
         Task<Customer> Delete(Customer customer);        
     }
 }

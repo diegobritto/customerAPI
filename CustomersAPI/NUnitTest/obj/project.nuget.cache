@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XvIdEIMYGsm89OHau9rSpo7q1RIsNtBY0vAaw3NFDtf2Xj4iE+d5bLD6p4Hosacn/GkRl6QXshlLvbksYK6ZTQ==",
+  "dgSpecHash": "d24rIWwjjgcfyvUl0USjb4Nwy6iN6/PqCY4XE6RmGEkPGsJXlqGenEmHtiEVqxmzS+bBaKhjDffjUEXgmM/1DA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\banco-parana\\CustomersAPI\\NUnitTest\\CustomerAPITest.csproj",
+  "projectFilePath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\NUnitTest\\CustomerAPITest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.codecoverage\\17.2.0\\microsoft.codecoverage.17.2.0.nupkg.sha512",

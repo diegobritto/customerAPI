@@ -114,3 +114,12 @@ D:\Projetos\banco-parana\CustomersAPI\NUnitTest\bin\Debug\net6.0\Microsoft.Exten
 D:\Projetos\banco-parana\CustomersAPI\NUnitTest\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\Projetos\banco-parana\CustomersAPI\NUnitTest\bin\Debug\net6.0\CustomerAPI.Data.dll
 D:\Projetos\banco-parana\CustomersAPI\NUnitTest\bin\Debug\net6.0\CustomerAPI.Data.pdb
+D:\Projetos\banco-parana\customerAPI-main\CustomersAPI\NUnitTest\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\Projetos\banco-parana\customerAPI-main\CustomersAPI\NUnitTest\obj\Debug\net6.0\CustomerAPITest.csproj.AssemblyReference.cache
+D:\Projetos\banco-parana\customerAPI-main\CustomersAPI\NUnitTest\obj\Debug\net6.0\CustomerAPITest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\banco-parana\customerAPI-main\CustomersAPI\NUnitTest\obj\Debug\net6.0\CustomerAPITest.AssemblyInfoInputs.cache
+D:\Projetos\banco-parana\customerAPI-main\CustomersAPI\NUnitTest\obj\Debug\net6.0\CustomerAPITest.AssemblyInfo.cs
+D:\Projetos\banco-parana\customerAPI-main\CustomersAPI\NUnitTest\obj\Debug\net6.0\CustomerAPITest.csproj.CoreCompileInputs.cache
+D:\Projetos\banco-parana\customerAPI-main\CustomersAPI\NUnitTest\obj\Debug\net6.0\CustomerAPITest.dll
+D:\Projetos\banco-parana\customerAPI-main\CustomersAPI\NUnitTest\obj\Debug\net6.0\refint\CustomerAPITest.dll
+D:\Projetos\banco-parana\customerAPI-main\CustomersAPI\NUnitTest\obj\Debug\net6.0\CustomerAPITest.pdb

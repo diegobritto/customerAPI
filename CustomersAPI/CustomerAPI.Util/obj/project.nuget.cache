@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bwzCthP2ivXihzFM5RyRdAETdHHxGuiuw218vaAZ+YRhI/CkBoaqzuFXrt73csY/ANrVdwydBrMkgmpKYQZXAw==",
+  "dgSpecHash": "hFAuYtzjcDt8kCDp6ZDBla5zmYp55oB4sw6o3oX9D2oHRqLVgA7rhZxtwCSu1fzX0u9Bz6SBspMX+mjq8gEZHA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj",
+  "projectFilePath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

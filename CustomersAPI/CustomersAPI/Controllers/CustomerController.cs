@@ -64,17 +64,15 @@ namespace CustomersAPI.Controllers
         }
 
         [HttpPut]
-        [Route("updateCustomer/{email}")]
-        public async Task<ActionResult<Customer>> UpdateCustomer(string email, [FromBody] Customer customer)
+        [Route("updateCustomer/{id:int}")]
+        public async Task<ActionResult<Customer>> UpdateCustomer(int id, [FromBody] Customer customer)
         {
-            if (Util.IsValidEmail(email))
-                return BadRequest(new { message = Message.Text(Message.INVALID_EMAIL) });
-            
+                        
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);                        
             try
             {
-                Customer result = await _service.updateCustomer(email, customer);
+                Customer result = await _service.updateCustomer(id, customer);
                 if (result == null)
                     return NotFound(new { message = Message.Text(Message.CUSTOMER_NOT_FOUND) });
 

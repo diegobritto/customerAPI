@@ -3887,11 +3887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\banco-parana\\CustomersAPI\\NUnitTest\\CustomerAPITest.csproj",
+      "projectUniqueName": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\NUnitTest\\CustomerAPITest.csproj",
       "projectName": "CustomerAPITest",
-      "projectPath": "D:\\Projetos\\banco-parana\\CustomersAPI\\NUnitTest\\CustomerAPITest.csproj",
+      "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\NUnitTest\\CustomerAPITest.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\banco-parana\\CustomersAPI\\NUnitTest\\obj\\",
+      "outputPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\NUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3908,11 +3908,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj": {
-              "projectPath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj"
+            "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj": {
+              "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj"
             },
-            "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj": {
-              "projectPath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj"
+            "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj": {
+              "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj"
             }
           }
         }

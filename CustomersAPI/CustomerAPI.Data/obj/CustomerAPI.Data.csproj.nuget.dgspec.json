@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj": {}
+    "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj": {
+    "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
+        "projectUniqueName": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
         "projectName": "CustomerAPI.Data",
-        "projectPath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
+        "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Data\\obj\\",
+        "outputPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj": {
-                "projectPath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj"
+              "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj": {
+    "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj",
         "projectName": "CustomerAPI.Domain",
-        "projectPath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj",
+        "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\banco-parana\\CustomersAPI\\CustomerAPI.Domain\\obj\\",
+        "outputPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
