@@ -1,0 +1,12 @@
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\bin\Debug\net6.0\CustomerAPI.Domain.deps.json
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\bin\Debug\net6.0\CustomerAPI.Domain.dll
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\bin\Debug\net6.0\CustomerAPI.Domain.pdb
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\obj\Debug\net6.0\CustomerAPI.Domain.csproj.AssemblyReference.cache
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\obj\Debug\net6.0\CustomerAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\obj\Debug\net6.0\CustomerAPI.Domain.AssemblyInfoInputs.cache
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\obj\Debug\net6.0\CustomerAPI.Domain.AssemblyInfo.cs
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\obj\Debug\net6.0\CustomerAPI.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\obj\Debug\net6.0\CustomerAPI.Domain.dll
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\obj\Debug\net6.0\refint\CustomerAPI.Domain.dll
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\obj\Debug\net6.0\CustomerAPI.Domain.pdb
+D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Domain\obj\Debug\net6.0\ref\CustomerAPI.Domain.dll
