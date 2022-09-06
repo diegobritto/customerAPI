@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kGhWnzlrI2PZgQ+2Eohl4dAfGJc/JW8erOAH5BpaK9EzCGjy8cdHR0noqQ8SucF8qEHHMEn02inSi4FTazExfA==",
+  "dgSpecHash": "C7O6TDAuRhhxiUoDnLJxfYGBnnnkzPo0wfslvc7hoLXpz8t6VlcJUI5abwZkkO/xjdR+t0zq7R5lcW/eWa2tww==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
+  "projectFilePath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",

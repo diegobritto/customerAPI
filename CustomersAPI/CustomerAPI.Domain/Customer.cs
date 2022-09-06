@@ -3,6 +3,15 @@ namespace CustomerAPI.Domain
 {
     public class Customer
     {
+        public Customer()
+        {}
+        public Customer(int id, string name, string email)
+        {
+            Id = id;
+            Name = name;
+            Email = email;
+        }
+
         [Key]
         public int Id { get; set; }
 

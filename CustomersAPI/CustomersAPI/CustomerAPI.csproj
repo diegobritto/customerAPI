@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CustomerAPI.Data\CustomerAPI.Data.csproj" />
+    <ProjectReference Include="..\CustomerAPI.Service\CustomerAPI.Service.csproj" />
     <ProjectReference Include="..\CustomerAPI.Util\CustomerAPI.Util.csproj" />
   </ItemGroup>
 

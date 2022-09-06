@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj",
       "projectName": "CustomerAPI.Domain",
-      "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj",
+      "projectPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\obj\\",
+      "outputPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

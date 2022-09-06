@@ -10,3 +10,15 @@ D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\Customer
 D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\refint\CustomerAPI.Util.dll
 D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\CustomerAPI.Util.pdb
 D:\Projetos\banco-parana\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\ref\CustomerAPI.Util.dll
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\bin\Debug\net6.0\CustomerAPI.Util.deps.json
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\bin\Debug\net6.0\CustomerAPI.Util.dll
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\bin\Debug\net6.0\CustomerAPI.Util.pdb
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\CustomerAPI.Util.csproj.AssemblyReference.cache
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\CustomerAPI.Util.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\CustomerAPI.Util.AssemblyInfoInputs.cache
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\CustomerAPI.Util.AssemblyInfo.cs
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\CustomerAPI.Util.csproj.CoreCompileInputs.cache
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\CustomerAPI.Util.dll
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\refint\CustomerAPI.Util.dll
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\CustomerAPI.Util.pdb
+C:\Users\diego\Downloads\Nova pasta (4)\customerAPI\CustomersAPI\CustomerAPI.Util\obj\Debug\net6.0\ref\CustomerAPI.Util.dll

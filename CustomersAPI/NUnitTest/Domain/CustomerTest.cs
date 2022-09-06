@@ -1,22 +1,27 @@
-using CustomerAPI.Data.Context;
-using CustomerAPI.Data.Interfaces;
-using CustomerAPI.Data.Repositories;
 using CustomerAPI.Domain;
 using CustomerAPI.Util;
 using NUnit.Framework;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using Moq;
+using CustomerAPI.Data.Context;
+using CustomerAPI.Service.Service;
+using Microsoft.EntityFrameworkCore;
+using CustomerAPI.Data.Repositories;
+using System.Threading.Tasks;
 
-
-namespace NUnitTest
+namespace CustomerAPITest.Domain
 {
 
     public class Tests
     {
+
         [SetUp]
         public void Setup()
-        {}
+        {
+
+        }
 
         #region Util
         [Test]
@@ -57,29 +62,31 @@ namespace NUnitTest
 
         #region Customer
         [Test]
-        
         public void IsInvalidCustomer()
         {
-            Customer customerEmailNull = new Customer{ Email = null,Name = "teste", Id=1} ;
+            Customer customerEmailNull = new Customer { Email = null, Name = "teste", Id = 1 };
             Customer customerEmailInvalid = new Customer { Email = "teste", Name = "teste", Id = 1 };
             Customer customerNameNull = new Customer { Email = "a@a.a", Name = null, Id = 1 };
             Customer customerNameInvalid = new Customer { Email = "a@a.a", Name = "te", Id = 1 };
-            Assert.IsTrue(ValidateModel(customerEmailNull).Any(v => v.MemberNames.Contains("Email") && v.ErrorMessage.Contains("Este campo é obrigatório")));
-            Assert.IsTrue(ValidateModel(customerEmailInvalid).Any(v => v.MemberNames.Contains("Email") && v.ErrorMessage.Contains("Email inválido!")));
-            Assert.IsTrue(ValidateModel(customerNameNull).Any(v => v.MemberNames.Contains("Name") && v.ErrorMessage.Contains("Este campo é obrigatório")));
-            Assert.IsTrue(ValidateModel(customerNameInvalid).Any(v => v.MemberNames.Contains("Name") && v.ErrorMessage.Contains("Este campo deve conter entre  3 e 50 caracteres")));
+            Assert.IsTrue(TestUtil.ValidateModel(customerEmailNull).Any(v => v.MemberNames.Contains("Email") && v.ErrorMessage.Contains("Este campo é obrigatório")));
+            Assert.IsTrue(TestUtil.ValidateModel(customerEmailInvalid).Any(v => v.MemberNames.Contains("Email") && v.ErrorMessage.Contains("Email inválido!")));
+            Assert.IsTrue(TestUtil.ValidateModel(customerNameNull).Any(v => v.MemberNames.Contains("Name") && v.ErrorMessage.Contains("Este campo é obrigatório")));
+            Assert.IsTrue(TestUtil.ValidateModel(customerNameInvalid).Any(v => v.MemberNames.Contains("Name") && v.ErrorMessage.Contains("Este campo deve conter entre  3 e 50 caracteres")));
+
+
+
         }
-        #endregion
-        
-        #region Private method
-        private IList<ValidationResult> ValidateModel(object model)
+        #endregion              
+    }
+    public static class TestUtil
+    {
+        public static IList<ValidationResult> ValidateModel(object model)
         {
             var validationResults = new List<ValidationResult>();
-            
+
             var ctx = new ValidationContext(model, null, null);
             Validator.TryValidateObject(model, ctx, validationResults, true);
             return validationResults;
         }
-        #endregion
     }
 }

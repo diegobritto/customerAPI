@@ -3160,6 +3160,19 @@
           "bin/placeholder/CustomerAPI.Domain.dll": {}
         }
       },
+      "CustomerAPI.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CustomerAPI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CustomerAPI.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomerAPI.Service.dll": {}
+        }
+      },
       "CustomerAPI.Util/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -9899,6 +9912,11 @@
       "path": "../CustomerAPI.Domain/CustomerAPI.Domain.csproj",
       "msbuildProject": "../CustomerAPI.Domain/CustomerAPI.Domain.csproj"
     },
+    "CustomerAPI.Service/1.0.0": {
+      "type": "project",
+      "path": "../CustomerAPI.Service/CustomerAPI.Service.csproj",
+      "msbuildProject": "../CustomerAPI.Service/CustomerAPI.Service.csproj"
+    },
     "CustomerAPI.Util/1.0.0": {
       "type": "project",
       "path": "../CustomerAPI.Util/CustomerAPI.Util.csproj",
@@ -9908,6 +9926,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "CustomerAPI.Data >= 1.0.0",
+      "CustomerAPI.Service >= 1.0.0",
       "CustomerAPI.Util >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.7",
@@ -9921,11 +9940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomersAPI\\CustomerAPI.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomersAPI\\CustomerAPI.csproj",
       "projectName": "CustomerAPI",
-      "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomersAPI\\CustomerAPI.csproj",
+      "projectPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomersAPI\\CustomerAPI.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomersAPI\\obj\\",
+      "outputPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomersAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9942,11 +9961,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj": {
-              "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj"
+            "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj": {
+              "projectPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj"
             },
-            "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj": {
-              "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj"
+            "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Service\\CustomerAPI.Service.csproj": {
+              "projectPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Service\\CustomerAPI.Service.csproj"
+            },
+            "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj": {
+              "projectPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Util\\CustomerAPI.Util.csproj"
             }
           }
         }
@@ -9986,7 +10008,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -9998,7 +10021,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -549,11 +549,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
       "projectName": "CustomerAPI.Data",
-      "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
+      "projectPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\CustomerAPI.Data.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\obj\\",
+      "outputPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -570,8 +570,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj": {
-              "projectPath": "D:\\Projetos\\git\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj"
+            "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\diego\\Downloads\\Nova pasta (4)\\customerAPI\\CustomersAPI\\CustomerAPI.Domain\\CustomerAPI.Domain.csproj"
             }
           }
         }
@@ -597,7 +597,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -606,7 +607,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

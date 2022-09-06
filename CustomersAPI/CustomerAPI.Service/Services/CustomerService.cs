@@ -1,8 +1,7 @@
-﻿using CustomerAPI.Data.Interfaces;
-using CustomerAPI.Data.Repositories;
+﻿using CustomerAPI.Domain.Interfaces;
 using CustomerAPI.Domain;
 
-namespace CustomerAPI.Data.Service
+namespace CustomerAPI.Service.Service
 {
     public class CustomerService : ICustomerService
     {
@@ -19,9 +18,9 @@ namespace CustomerAPI.Data.Service
             return await _repository.Add(customer);
         }
 
-        public async Task<Customer> deleteCustomer(Customer customer)
+        public async Task deleteCustomer(Customer customer)
         {
-            return await _repository.Delete(customer);
+            await _repository.Delete(customer);
         }
 
         public async Task<Customer> getCustomerByEmail(string email)
@@ -29,19 +28,17 @@ namespace CustomerAPI.Data.Service
             return await _repository.GetByEmail(email);
         }
 
-        public async  Task<List<Customer>> getCustomers()
+        public async  Task<List<Customer>> getCustomers(int skip =0, int take=10)
         {
-            return await _repository.GetAll();
+            return await _repository.GetAll(skip,take);
         }
 
-        public async Task<Customer> updateCustomer(int id, Customer customer)
+        public async Task<Customer> updateCustomer(string email, Customer customer)
         {
-            Customer result = await _repository.GetById(id);            
-            result.Email = customer.Email;
-            result.Name = customer.Name;
+            Customer result = await getCustomerByEmail(email);
             if (result == null)
                 return null;
-            return await _repository.Update(result);
+            return await _repository.Update(customer);
         }
     }
 }

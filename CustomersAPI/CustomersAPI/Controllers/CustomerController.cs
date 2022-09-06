@@ -1,5 +1,5 @@
 ﻿using CustomerAPI.Data.Context;
-using CustomerAPI.Data.Interfaces;
+using CustomerAPI.Domain.Interfaces;
 using CustomerAPI.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -16,17 +16,28 @@ namespace CustomersAPI.Controllers
         {            
             _service = service;
         }
-        
-        #region Method
 
+        #region Method
+        
+        /// <summary>
+        /// endpoint, com paginação, responsavel por buscar todos os clientes cadastrados no banco de dados.
+        /// </summary>
+        /// <param name="skip">permitirá que você ignore os primeiros n itens</param>
+        /// <param name="take">obterá um número n de itens da fonte de dados</param>
+        /// <returns></returns>
         [HttpGet]
         [Route("getCustomers")]
-        public async Task<ActionResult<List<Customer>>> GetCustomers()
+        public async Task<ActionResult<List<Customer>>> GetCustomers([FromQuery] int skip = 0, [FromQuery] int take = 10)
         {
-            var result = await _service.getCustomers();            
+            var result = await _service.getCustomers(skip,take);            
             return Ok(result);
         }
-
+        
+        /// <summary>
+        /// endpoint responsavel por buscar um cliente com determinado email no banco de dados
+        /// </summary>
+        /// <param name="email">email do cliente a ser buscado</param>
+        /// <returns></returns>
         [HttpGet]
         [Route("getCustomerByEmail/{email}")]
         public async Task<ActionResult<Customer>> GetCustomerByEmail(string email)
@@ -37,7 +48,12 @@ namespace CustomersAPI.Controllers
             var result = await _service.getCustomerByEmail(email);                                    
             return Ok(result);
         }
-
+        
+        /// <summary>
+        /// endpoint responsavel por adicionar um novo cliente no banco de dados
+        /// </summary>
+        /// <param name="customer">novo registro de cliente</param>
+        /// <returns></returns>
         [HttpPost]
         [Route("addCustomer")]
         public async Task<ActionResult<Customer>> AddCustomer([FromBody] Customer customer)
@@ -62,17 +78,23 @@ namespace CustomersAPI.Controllers
                 return BadRequest(new { message = Message.Text(Message.REGISTERED_CUSTOMER_SUCCESS) });
             }
         }
-
+        
+        /// <summary>
+        /// endpoint responsavel por atualizar um cliente, com determinado email, no banco de dados
+        /// </summary>
+        /// <param name="email">email do cliente a ser atualizado</param>
+        /// <param name="customer">dados atualizados do cliente</param>
+        /// <returns></returns>
         [HttpPut]
-        [Route("updateCustomer/{id:int}")]
-        public async Task<ActionResult<Customer>> UpdateCustomer(int id, [FromBody] Customer customer)
+        [Route("updateCustomer/{email}")]
+        public async Task<ActionResult<Customer>> UpdateCustomer(string email, [FromBody] Customer customer)
         {
                         
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);                        
             try
             {
-                Customer result = await _service.updateCustomer(id, customer);
+                Customer result = await _service.updateCustomer(email, customer);
                 if (result == null)
                     return NotFound(new { message = Message.Text(Message.CUSTOMER_NOT_FOUND) });
 
@@ -87,10 +109,15 @@ namespace CustomersAPI.Controllers
                 return BadRequest(new { message = Message.Text(Message.REGISTERED_CUSTOMER_SUCCESS) });
             }
         }
-
+        
+        /// <summary>
+        /// endpoint responsavel por deletar um registro do tipo Cliente do banco de dados
+        /// </summary>
+        /// <param name="email">email do cliente a ser deletado</param>
+        /// <returns></returns>
         [HttpDelete]
         [Route("deleteCustomer/{email}")]
-        public async Task<ActionResult<Customer>> DeleteCustomer(string email)
+        public async Task<ActionResult> DeleteCustomer(string email)
         {
             try
             {
